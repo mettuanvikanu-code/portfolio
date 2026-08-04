@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mettu Anuvika | Aspiring Software Engineer & IT Student</title>
+    <meta name="description" content="Portfolio of Mettu Anuvika, Information Technology student at Teegala Krishna Reddy Engineering College specializing in Java, Python, Django, SQL, and Machine Learning.">
+    <meta name="keywords" content="Mettu Anuvika, Portfolio, Software Engineer, Information Technology, TKREC, Java, Python, Django, Machine Learning">
+    <meta name="author" content="Mettu Anuvika">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mettu Anuvika | Aspiring Software Engineer">
+    <meta property="og:description" content="Final-year IT Student with hands-on experience in Java, Python, Django, SQL, and Machine Learning.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Decoration Grid & Lights -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid-pattern"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-header" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-brand">
+                <span class="brand-code">&lt;</span>Mettu Anuvika<span class="brand-code"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-sm btn-primary">Contact Me</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Available for Entry-Level Roles & Internships</span>
+                    </div>
+
+                    <h1 class="hero-name">Mettu Anuvika</h1>
+                    <h2 class="hero-title">Aspiring Software Engineer <span class="highlight">| IT Student</span></h2>
+
+                    <p class="hero-intro">
+                        I am an Information Technology student passionate about building practical software solutions using 
+                        <span class="tech-highlight">Java</span>, <span class="tech-highlight">Python</span>, 
+                        <span class="tech-highlight">Django</span>, <span class="tech-highlight">SQL</span>, and 
+                        <span class="tech-highlight">Machine Learning</span>.
+                    </p>
+
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-num">8.10</span>
+                            <span class="stat-label">CGPA / 10</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-num">2027</span>
+                            <span class="stat-label">Graduation Year</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-num">B.Tech</span>
+                            <span class="stat-label">Information Tech</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-cta-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-code-branch"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-regular fa-paper-plane"></i> Contact Me
+                        </a>
+                        <button class="btn btn-outline" id="download-resume-btn">
+                            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-card-wrapper">
+                        <div class="code-card">
+                            <div class="code-header">
+                                <div class="window-buttons">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                </div>
+                                <div class="window-title">developer_profile.py</div>
+                            </div>
+                            <div class="code-body">
+<pre><code><span class="code-keyword">class</span> <span class="code-class">SoftwareEngineer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-str">"Mettu Anuvika"</span>
+        self.role = <span class="code-str">"Aspiring Software Engineer"</span>
+        self.degree = <span class="code-str">"B.Tech in IT"</span>
+        self.college = <span class="code-str">"TKREC, Telangana"</span>
+        self.cgpa = <span class="code-num">8.10</span>
+        
+    <span class="code-keyword">def</span> <span class="code-func">get_tech_stack</span>(self):
+        <span class="code-keyword">return</span> [
+            <span class="code-str">"Python"</span>, <span class="code-str">"Java"</span>, <span class="code-str">"C"</span>,
+            <span class="code-str">"Django"</span>, <span class="code-str">"SQL"</span>, <span class="code-str">"ML"</span>
+        ]
+
+    <span class="code-keyword">def</span> <span class="code-func">current_focus</span>(self):
+        <span class="code-keyword">return</span> <span class="code-str">"Building ML apps & mastering DSA"</span>
+
+me = SoftwareEngineer()
+<span class="code-func">print</span>(f<span class="code-str">"Hello World! Ready to create impact."</span>)</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">GET TO KNOW ME</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-summary">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <h3>Professional Summary</h3>
+                        <p class="about-text">
+                            Final-year Information Technology student with hands-on experience in Java, Python, Django, SQL, and full-stack web development. I enjoy solving problems, building useful applications, and continuously improving my skills in data structures, algorithms, machine learning, and web development.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights-grid">
+                        <div class="about-mini-card">
+                            <div class="mini-icon"><i class="fa-solid fa-building-columns"></i></div>
+                            <div>
+                                <h4>Institution</h4>
+                                <p>Teegala Krishna Reddy Engineering College</p>
+                            </div>
+                        </div>
+
+                        <div class="about-mini-card">
+                            <div class="mini-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Telangana, India</p>
+                            </div>
+                        </div>
+
+                        <div class="about-mini-card">
+                            <div class="mini-icon"><i class="fa-solid fa-award"></i></div>
+                            <div>
+                                <h4>Academic Track</h4>
+                                <p>CGPA: 8.10/10 (Expected 2027)</p>
+                            </div>
+                        </div>
+
+                        <div class="about-mini-card">
+                            <div class="mini-icon"><i class="fa-solid fa-bullseye"></i></div>
+                            <div>
+                                <h4>Key Interest</h4>
+                                <p>Software Engineering & ML</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">MY TECHNICAL TOOLBOX</span>
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-blue">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="skill-pill"><i class="fa-brands fa-java"></i> Java</span>
+                            <span class="skill-pill"><i class="fa-solid fa-c"></i> C</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-purple">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+                            <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                            <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> Django</span>
+                        </div>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-cyan">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-server"></i> SQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Core Concepts -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-indigo">
+                                <i class="fa-solid fa-cubes"></i>
+                            </div>
+                            <h3>Core Concepts</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-object-group"></i> Object-Oriented Programming (OOP)</span>
+                            <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> Data Structures & Algorithms</span>
+                        </div>
+                    </div>
+
+                    <!-- Machine Learning -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-pink">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <h3>Machine Learning</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-solid fa-microchip"></i> Scikit-learn</span>
+                            <span class="skill-pill"><i class="fa-solid fa-table-cells"></i> Pandas</span>
+                            <span class="skill-pill"><i class="fa-solid fa-calculator"></i> NumPy</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Software -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-green">
+                                <i class="fa-solid fa-wrench"></i>
+                            </div>
+                            <h3>Tools & Software</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-pill"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
+                            <span class="skill-pill"><i class="fa-solid fa-file-word"></i> MS Word</span>
+                            <span class="skill-pill"><i class="fa-solid fa-file-powerpoint"></i> MS PowerPoint</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Project Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">PORTFOLIO HIGHLIGHT</span>
+                    <h2 class="section-title">Featured Project</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="featured-project-card">
+                    <div class="project-header-bar">
+                        <span class="featured-tag"><i class="fa-solid fa-star"></i> Featured ML Project</span>
+                        <div class="tech-stack-pills">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+
+                    <div class="project-content-grid">
+                        <div class="project-info">
+                            <h3 class="project-title">Email Spam Filtering System</h3>
+                            <p class="project-description">
+                                Built a machine-learning-based email spam filtering system that classifies emails as spam or legitimate. The project involved preprocessing email data, training a classification model, and improving spam-detection performance using Scikit-learn.
+                            </p>
+
+                            <h4 class="highlights-heading">Key Highlights & Achievements:</h4>
+                            <ul class="highlights-list">
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span><strong>Data Preprocessing:</strong> Cleaned and tokenized raw email content, performed text normalization, and vectorized textual features for optimal model training.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span><strong>Model Training & Evaluation:</strong> Trained classification algorithms (Naive Bayes / Logistic Regression) using Scikit-learn to accurately identify spam and legitimate (ham) messages.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <span><strong>Real-Time Web Application Concept:</strong> Designed an interactive web interface prototype enabling users to paste custom email text and receive instant spam classification feedback.</span>
+                                </li>
+                            </ul>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/mettuanvikanu-code" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                                    <i class="fa-brands fa-github"></i> GitHub Repository
+                                </a>
+                                <button class="btn btn-primary" id="open-demo-btn">
+                                    <i class="fa-solid fa-laptop-code"></i> Try Interactive Live Demo
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Spam Classifier Demo Box -->
+                        <div class="project-demo-box">
+                            <div class="demo-card">
+                                <div class="demo-header">
+                                    <span class="demo-badge"><i class="fa-solid fa-bolt"></i> Live Model Sandbox</span>
+                                    <h4>Test Spam Detection Model</h4>
+                                </div>
+                                <div class="demo-body">
+                                    <label for="sample-text-select" class="demo-label">Quick Sample Text:</label>
+                                    <select id="sample-text-select" class="demo-select">
+                                        <option value="">-- Choose a sample message --</option>
+                                        <option value="CONGRATULATIONS! You have won a $1000 gift card. Click this link immediately to claim your urgent prize!">🚨 Sample Spam Email (Prize Winner)</option>
+                                        <option value="Hi Anuvika, hope you are doing well. Please review the updated database schema for the IT project before our meeting tomorrow.">✅ Sample Legitimate Email (Project Discussion)</option>
+                                        <option value="URGENT: Your account access will be suspended. Verify your banking password now at http://secure-login-verify.com">🚨 Sample Spam Email (Phishing Alert)</option>
+                                        <option value="Dear Team, the submission deadline for the machine learning assignment has been extended to Friday 5 PM.">✅ Sample Legitimate Email (College Update)</option>
+                                    </select>
+
+                                    <label for="email-input-text" class="demo-label">Or Type / Paste Custom Email Text:</label>
+                                    <textarea id="email-input-text" class="demo-textarea" rows="4" placeholder="Type or paste any email message here to evaluate..."></textarea>
+
+                                    <button id="classify-btn" class="btn btn-primary btn-block">
+                                        <i class="fa-solid fa-robot"></i> Classify Email Message
+                                    </button>
+
+                                    <!-- Result Output Box -->
+                                    <div id="demo-result" class="demo-result-box hidden">
+                                        <div class="result-header">
+                                            <span class="result-status-badge" id="result-status-badge">Legitimate</span>
+                                            <span class="confidence-text" id="confidence-text">Confidence: 98%</span>
+                                        </div>
+                                        <div class="confidence-bar-bg">
+                                            <div class="confidence-bar-fill" id="confidence-bar-fill" style="width: 98%;"></div>
+                                        </div>
+                                        <p class="result-explanation" id="result-explanation">
+                                            Keywords analyzed: Clean vocabulary, standard syntax, no high-risk spam indicators detected.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section class="section edu-cert-section" id="education">
+            <div class="container">
+                <div class="grid-2-col">
+                    <!-- Education Column -->
+                    <div class="edu-column">
+                        <div class="section-header text-left">
+                            <span class="section-subtitle">ACADEMIC BACKGROUND</span>
+                            <h2 class="section-title">Education</h2>
+                            <div class="title-bar"></div>
+                        </div>
+
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <div class="timeline-period">2023 &mdash; 2027 (Expected)</div>
+                                    <h3 class="timeline-title">B.Tech in Information Technology</h3>
+                                    <h4 class="timeline-institution">Teegala Krishna Reddy Engineering College</h4>
+                                    <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Telangana, India</p>
+                                    
+                                    <div class="timeline-badge-group">
+                                        <span class="badge-highlight">CGPA: 8.10 / 10</span>
+                                        <span class="badge-subtle">Final Year Student</span>
+                                    </div>
+
+                                    <p class="timeline-desc">
+                                        Focusing on Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Machine Learning, and Web Application Development.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications Column -->
+                    <div class="cert-column" id="certifications">
+                        <div class="section-header text-left">
+                            <span class="section-subtitle">CREDENTIALS & KNOWLEDGE</span>
+                            <h2 class="section-title">Certifications</h2>
+                            <div class="title-bar"></div>
+                        </div>
+
+                        <div class="cert-cards-list">
+                            <!-- ServiceNow Cert -->
+                            <div class="cert-card">
+                                <div class="cert-icon icon-servicenow">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </div>
+                                <div class="cert-details">
+                                    <div class="cert-year">2026</div>
+                                    <h3>Certified Implementation Specialist: Data Foundations</h3>
+                                    <p class="cert-subtitle">CMDB & CSDM Focus</p>
+                                    <span class="cert-issuer"><i class="fa-solid fa-circle-check"></i> ServiceNow</span>
+                                </div>
+                            </div>
+
+                            <!-- Infosys Springboard Cert -->
+                            <div class="cert-card">
+                                <div class="cert-icon icon-infosys">
+                                    <i class="fa-solid fa-award"></i>
+                                </div>
+                                <div class="cert-details">
+                                    <div class="cert-year">2024</div>
+                                    <h3>C Programming Certification</h3>
+                                    <p class="cert-subtitle">Fundamental Programming & Logic</p>
+                                    <span class="cert-issuer"><i class="fa-solid fa-circle-check"></i> Infosys Springboard</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Soft Skills Section -->
+        <section class="section achievements-section" id="achievements">
+            <div class="container">
+                <div class="grid-2-col">
+                    <!-- Achievements Column -->
+                    <div class="achieve-column">
+                        <div class="section-header text-left">
+                            <span class="section-subtitle">MILESTONES & LEARNING</span>
+                            <h2 class="section-title">Achievements & Growth</h2>
+                            <div class="title-bar"></div>
+                        </div>
+
+                        <ul class="achievement-list">
+                            <li class="achievement-item">
+                                <div class="achieve-icon"><i class="fa-solid fa-trophy"></i></div>
+                                <div>
+                                    <h4>Email Spam Filtering System</h4>
+                                    <p>Developed an end-to-end machine learning system that classifies emails as spam or legitimate with high accuracy using Scikit-learn.</p>
+                                </div>
+                            </li>
+
+                            <li class="achievement-item">
+                                <div class="achieve-icon"><i class="fa-solid fa-window-restore"></i></div>
+                                <div>
+                                    <h4>Real-Time Web Application Concept</h4>
+                                    <p>Built a web application interface concept for instant email spam detection enabling live textual analysis.</p>
+                                </div>
+                            </li>
+
+                            <li class="achievement-item">
+                                <div class="achieve-icon"><i class="fa-solid fa-chart-line"></i></div>
+                                <div>
+                                    <h4>Data Analysis Skill Building</h4>
+                                    <p>Currently expanding expertise in Microsoft Excel for structured data analysis, reporting, formulas, and visualization.</p>
+                                </div>
+                            </li>
+
+                            <li class="achievement-item">
+                                <div class="achieve-icon"><i class="fa-solid fa-code"></i></div>
+                                <div>
+                                    <h4>Continuous Technical Strengthening</h4>
+                                    <p>Actively practicing Data Structures & Algorithms, Machine Learning fundamentals, and Django web frameworks.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Soft Skills Column -->
+                    <div class="soft-skills-column">
+                        <div class="section-header text-left">
+                            <span class="section-subtitle">INTERPERSONAL STRENGTHS</span>
+                            <h2 class="section-title">Soft Skills</h2>
+                            <div class="title-bar"></div>
+                        </div>
+
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill-card">
+                                <div class="soft-skill-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                                <h4>Problem Solving</h4>
+                                <p>Analyzing complex logic and crafting algorithmic solutions efficiently.</p>
+                            </div>
+
+                            <div class="soft-skill-card">
+                                <div class="soft-skill-icon"><i class="fa-solid fa-comments"></i></div>
+                                <h4>Communication</h4>
+                                <p>Articulating ideas clearly in team discussions and technical documentation.</p>
+                            </div>
+
+                            <div class="soft-skill-card">
+                                <div class="soft-skill-icon"><i class="fa-solid fa-people-group"></i></div>
+                                <h4>Team Collaboration</h4>
+                                <p>Working seamlessly with group members to achieve shared project goals.</p>
+                            </div>
+
+                            <div class="soft-skill-card">
+                                <div class="soft-skill-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                                <h4>Time Management</h4>
+                                <p>Prioritizing tasks effectively to deliver assignments and projects on schedule.</p>
+                            </div>
+
+                            <div class="soft-skill-card span-2">
+                                <div class="soft-skill-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                                <h4>Continuous Learning</h4>
+                                <p>Quickly adapting to new technologies, tools, and modern industry standards.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">LET'S CONNECT</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info Cards -->
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p class="contact-intro">
+                            Feel free to reach out if you're looking for an enthusiastic entry-level Software Engineer, have a question, or want to discuss project opportunities.
+                        </p>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-content">
+                                <span>Email</span>
+                                <a href="mailto:anvikamettu9@gmail.com">anvikamettu9@gmail.com</a>
+                            </div>
+                            <button class="copy-btn" data-copy="anvikamettu9@gmail.com" title="Copy Email">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-content">
+                                <span>Phone</span>
+                                <a href="tel:+919347265335">+91 9347265335</a>
+                            </div>
+                            <button class="copy-btn" data-copy="+919347265335" title="Copy Phone Number">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info-content">
+                                <span>Location</span>
+                                <p>Telangana, India</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="info-content">
+                                <span>LinkedIn Profile</span>
+                                <a href="https://www.linkedin.com/in/mettu-anuvika-20b353335" target="_blank" rel="noopener noreferrer">
+                                    linkedin.com/in/mettu-anuvika-20b353335
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                            <div class="info-content">
+                                <span>GitHub Profile</span>
+                                <a href="https://github.com/mettuanvikanu-code" target="_blank" rel="noopener noreferrer">
+                                    github.com/mettuanvikanu-code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="user-name">Your Name <span class="required">*</span></label>
+                                <input type="text" id="user-name" name="name" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="user-email">Your Email <span class="required">*</span></label>
+                                <input type="email" id="user-email" name="email" placeholder="Enter your email address" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="user-message">Message <span class="required">*</span></label>
+                                <textarea id="user-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <i class="fa-regular fa-paper-plane"></i> Send Message
+                            </button>
+                            <div id="form-status" class="form-status hidden"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#hero" class="footer-logo">&lt;Mettu Anuvika /&gt;</a>
+                <p>B.Tech Information Technology Student & Aspiring Software Engineer.</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/mettu-anuvika-20b353335" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/mettuanvikanu-code" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:anvikamettu9@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Mettu Anuvika. All rights reserved.</p>
+                <a href="#hero" class="back-to-top" aria-label="Back to Top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-file-pdf"></i> Resume Preview - Mettu Anuvika</h3>
+                <button id="close-modal-btn" class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="resume-preview-box">
+                    <div class="resume-header-preview">
+                        <h2>METTU ANUVIKA</h2>
+                        <p>Telangana, India | +91 9347265335 | anvikamettu9@gmail.com</p>
+                        <p>LinkedIn: https://www.linkedin.com/in/mettu-anuvika-20b353335 | GitHub: https://github.com/mettuanvikanu-code</p>
+                    </div>
+
+                    <div class="resume-section-preview">
+                        <h4>OBJECTIVE</h4>
+                        <p>Final-year Information Technology student seeking an entry-level Software Engineer or Web Developer role to build scalable software solutions using Java, Python, Django, SQL, and Machine Learning.</p>
+                    </div>
+
+                    <div class="resume-section-preview">
+                        <h4>EDUCATION</h4>
+                        <p><strong>B.Tech in Information Technology</strong> (2023 – 2027 Expected)</p>
+                        <p>Teegala Krishna Reddy Engineering College | <strong>CGPA: 8.10 / 10</strong></p>
+                    </div>
+
+                    <div class="resume-section-preview">
+                        <h4>SKILLS</h4>
+                        <p><strong>Languages:</strong> Python, Java, C</p>
+                        <p><strong>Web & Database:</strong> HTML, CSS, Django, SQL</p>
+                        <p><strong>Machine Learning:</strong> Scikit-learn, Pandas, NumPy</p>
+                        <p><strong>Core Concepts:</strong> OOP, Data Structures & Algorithms</p>
+                        <p><strong>Tools:</strong> GitHub, MS Excel, MS Word, MS PowerPoint</p>
+                    </div>
+
+                    <div class="resume-section-preview">
+                        <h4>FEATURED PROJECT</h4>
+                        <p><strong>Email Spam Filtering System (Python, Scikit-learn, Pandas, NumPy)</strong></p>
+                        <ul>
+                            <li>Preprocessed email datasets for text classification.</li>
+                            <li>Trained machine learning models using Scikit-learn to classify emails as spam or legitimate.</li>
+                            <li>Conceptualized a web application interface for real-time spam detection.</li>
+                        </ul>
+                    </div>
+
+                    <div class="resume-section-preview">
+                        <h4>CERTIFICATIONS</h4>
+                        <ul>
+                            <li>ServiceNow Certified Implementation Specialist: Data Foundations (CMDB & CSDM) (2026)</li>
+                            <li>Infosys Springboard — C Programming Certification (2024)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="download-actual-resume-btn" class="btn btn-primary">
+                    <i class="fa-solid fa-download"></i> Save Text Resume (.txt)
+                </button>
+                <button id="print-resume-btn" class="btn btn-secondary">
+                    <i class="fa-solid fa-print"></i> Print / Save PDF
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
